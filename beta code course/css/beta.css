@@ -1,0 +1,242 @@
+body {
+  font-family: "cairo", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #28b3f8;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 950px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.d-flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-end {
+  justify-content: end;
+}
+.align-item-center {
+  align-items: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.text-center {
+  text-align: center;
+}
+/*navbar*/
+w-100 {
+  width: 100%;
+}
+.navbar {
+  box-shadow: 0 0 200px 20px #28b3f8;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0px;
+  /* background: linear-gradient(#fff, #01cbbf);
+  repeating-linear-gradient()
+  radial-gradient()
+  repeating-radial-gradient()
+  conic-gradient()
+  repeating-conic-gradient()*/
+}
+
+.mh-70 {
+  min-height: 70px;
+}
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar .navigation ul li {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 800;
+  margin: auto 20px;
+  transition: 0.7s;
+}
+.navbar .navigation ul li:hover {
+  transform: scale(1.2);
+}
+span {
+  margin: -10px;
+}
+/*end navbar*/
+/*first section*/
+.landing .container {
+  height: calc(
+    100vh - 70px
+  ); /*---------------------qestion-------height:calc(100vh-70px)*/
+  margin-top: 70px;
+}
+.landing .site-title {
+  flex: 1;
+}
+
+.landing .site-title h1 {
+  font-size: 40px;
+  margin: 0;
+}
+.landing .site-title p {
+  font-size: 23px;
+  line-height: 1.7;
+  margin: 5px 0 0;
+  color: #666;
+  max-width: 500px;
+}
+.landing .site-image img {
+  position: relative;
+  width: 600px;
+  margin: 40px;
+}
+/* end first section*/
+/* our services */
+.services {
+  background-color: #fff;
+  padding: 40px;
+}
+.services .container h1 {
+  font-size: 40px;
+  color: #248bf1;
+  font-weight: bold;
+}
+.services .container .card-box .card {
+  background-color: #fff;
+  flex: 1;
+  box-shadow: 0 0 10px 5px #e3e3e3;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 20px;
+  transition: 0.7s;
+}
+.services .container .card-box .card:hover {
+  transform: scale(1.1);
+}
+.services .container .card-box .card .icon {
+  font-size: 40px;
+  color: #248bf1;
+  margin: 0px;
+}
+
+.services .container .card-box .card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+}
+/* end our services */
+/* our academy */
+.our-academy {
+  padding: 80px 0px;
+}
+.our-academy .box .image img {
+  width: 400px;
+}
+.our-academy .academy-text {
+  flex: 1;
+  padding: 0px 20px;
+}
+.our-academy .academy-text h3 {
+  font-size: 40px;
+  color: #0d106b;
+}
+/*end our academy */
+/*contact us */
+.contact-us {
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.contact-us .container > h1 {
+  color: #248bf1;
+  font-size: 44px;
+}
+.contact-us .con-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 0px 10px;
+}
+.contact-us .con-form .input {
+  padding: 20px;
+  margin: 12px 0px;
+  background-color: #e3e3e380;
+  border: none;
+  border-radius: 20px;
+}
+.contact-us .con-form .submit-button {
+  border: none;
+  background-color: #248bf1;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 12px 20px;
+  width: 200px;
+  transition: 0.7s;
+}
+.contact-us .con-form .submit-button:hover {
+  background-color: #0326e9;
+  transform: scale(1.1);
+}
+.contact-us .container .box .contact-image {
+  margin-top: 45px;
+}
+.contact-us .container .box .contact-image img {
+  border-radius: 70px 20px 50px 0;
+}
+/*end contact us */
+/*footer */
+.footer p {
+  background-color: #28b3f8;
+  color: #fff;
+  margin: 0;
+  width: 100%;
+  padding: 15px 0px;
+}
+
+/*end footer */
+.jd {
+  margin-top: -35px;
+  padding-left: 10px;
+  color: #fff;
+  font-size: 13px;
+}
+div {
+}
